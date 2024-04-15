@@ -1,0 +1,218 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.all{
+    display:block;
+}
+Header{
+    display: flex;
+    justify-content: center ;
+    height: 100px;
+}
+.Logo, .top-menu{
+    display: inline-block;
+}
+.top-menu, li{
+    margin-right: 25px;
+    display: inline-block;
+}
+.top-menu a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+.top-menu a:hover{
+    color: aqua;
+}
+.Logo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.all{
+    display: flex;
+    flex-direction: column; 
+}
+.main{
+    margin-left: 50vh;
+    display: flex;
+}
+.first{
+    display: block;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.first, p{
+    font-size: large ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first, img{
+    width: 90%;
+}
+.ME{
+    display:block;
+}
+.ME, h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    align: center;
+}
+.ME2{
+    display: flex;
+
+}
+.capibara{
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 40vh;
+}
+.pm{
+    margin-top: 30vh;
+}
+.skills{
+    display: block;
+    margin-left:30vh;
+}
+.skill{
+    margin-left: 40vh;
+    margin-top: 20vh;
+}
+.circle{
+    height: 20px;
+      width: 20px;
+      background-color: rgb(222, 12, 237);
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+.circle1{
+height: 20px;
+  width: 20px;
+  background-color: rgb(222, 12, 237);;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.circle2{
+    height: 20px;
+      width: 20px;
+      background-color: rgb(222, 12, 237);;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .circle3{
+        height: 20px;
+          width: 20px;
+          background-color: rgb(222, 12, 237);;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        .circle4{
+            height: 20px;
+              width: 20px;
+              background-color: rgb(222, 12, 237);;
+              border-radius: 50%;
+              margin-right: 10px;
+            }
+            .circle5{
+                height: 20px;
+                  width: 20px;
+                  background-color: rgb(53, 24, 42);
+                  border-radius: 50%;
+                  margin-right: 10px;
+                }
+        .circle6{
+        height: 20px;
+         width: 20px;
+        background-color: rgb(53, 24, 42);
+          border-radius: 50%;
+          margin-right: 10px;
+           }
+      .circle7{
+          height: 20px;
+         width: 20px;
+         background-color: rgb(53, 24, 42);
+        border-radius: 50%;
+        margin-right: 10px;
+        }
+        .circle8{
+        height: 20px;
+         width: 20px;
+         background-color: rgb(53, 24, 42);
+        border-radius: 50%;
+        margin-right: 10px;
+        }
+        .circle9{
+            height: 20px;
+             width: 20px;
+             background-color: rgb(53, 24, 42);
+            border-radius: 50%;
+            margin-right: 10px;
+            }
+.maincircle1{
+    display: flex;
+}
+.project{
+    display: block;
+}
+.projects{
+
+}
+.istorik{
+    width:15%;
+    margin-left:60vh;
+}
+.bebe a:hover{
+    color: aqua;
+}
+.bebe{
+    display: flex;
+    margin-right: 40vh;
+}
+.blog{
+    display: flex;
+    margin-top: 20vh;
+}
+.mainblog{
+    
+    margin-left: 70vh;
+    display: block;
+}
+.mainblog h1{
+    font-size: 60px;
+}
+.mainblog button{
+    width:130px;
+    height: 40px;
+    border-radius: 40px;
+    font-family: fantasy;
+    color: aliceblue;
+    background-color: rgb(204, 59, 214);
+}
+.bubble{
+    margin-left: 30vh;
+    width: 40%;
+    margin-top: 20vh;
+}
+.bubble a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.merge{
+    margin-left: 30vh;
+    width: 40%;
+    margin-top: 20vh;
+}
+.stolbr{
+    display: block;
+    margin-right: 100vh;
+    margin-top: 20vh;
+}
+.stolbl{
+    display: block;
+}
+.quick{
+    margin-top: 20vh;
+}
+.white{
+    margin-top: 20vh;
+}
