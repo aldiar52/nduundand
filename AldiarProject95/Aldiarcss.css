@@ -35,8 +35,8 @@ Header{
     flex-direction: column; 
 }
 .main{
-    margin-left: 50vh;
     display: flex;
+    justify-content: center;
 }
 .first{
     display: block;
@@ -48,7 +48,7 @@ Header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .first, img{
-    width: 90%;
+    width: 30%;
 }
 .ME{
     display:block;
@@ -71,12 +71,14 @@ Header{
     margin-top: 30vh;
 }
 .skills{
-    display: block;
-    margin-left:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
 }
 .skill{
-    margin-left: 40vh;
-    margin-top: 20vh;
+   
 }
 .circle{
     height: 20px;
@@ -153,9 +155,7 @@ height: 20px;
 }
 .project{
     display: block;
-}
-.projects{
-
+    margin-top: 20vh;
 }
 .istorik{
     width:15%;
@@ -170,17 +170,26 @@ height: 20px;
 }
 .blog{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 20vh;
 }
 .mainblog{
-    
-    margin-left: 70vh;
-    display: block;
+    display: flex;
 }
-.mainblog h1{
+.mainblog p{
+    font-size:20px;
+}
+.mainblog a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blog h1{
     font-size: 60px;
 }
-.mainblog button{
+.blog button{
     width:130px;
     height: 40px;
     border-radius: 40px;
@@ -189,32 +198,35 @@ height: 20px;
     background-color: rgb(204, 59, 214);
 }
 .bubble{
-    margin-left: 30vh;
-    width: 40%;
-    margin-top: 20vh;
+    width: 30%;
 }
 .bubble a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .merge{
-    margin-left: 30vh;
-    width: 40%;
-    margin-top: 20vh;
+    width: 30%;
 }
 .stolbr{
-    display: block;
-    margin-right: 100vh;
-    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-right: 20vh;
+    justify-content: right;
 }
+
 .stolbl{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-left: 20vh;
 }
 .quick{
-    margin-top: 20vh;
+    width: 40%;
 }
 .white{
-    margin-top: 20vh;
+    
+    width: 40%;
 }
 .contact{
     display: block;
